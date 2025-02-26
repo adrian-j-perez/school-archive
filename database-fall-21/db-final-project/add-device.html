@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Add Device</title>
+
+</head>
+
+<body>
+    <button onclick="window.location.href='./index.html'">Home Page</button>
+    <h1>Add a device </h1>
+
+    <form method="post" action="add-device.php">
+
+        <div>
+            <label for="dname">device name:</label>
+            <input type="text" name="dname" />
+        </div>
+
+        <div>
+            <label for="year">year made:</label>
+            <input type="text" name="year" />
+        </div>
+
+        <div>
+            <label for="model">model:</label>
+            <input type="text" name="model" />
+        </div>
+
+        <div>
+            <label for="category">category:</label>
+            <select id="category" name="category">
+                <option value=""></option>
+                <option value="TV">TV</option>
+                <option value="phone">phone</option>
+                <option value="computer">computer</option>
+                <option value="game-system">game system</option>
+                <option value="iot">iot (internet of things)</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="desc">description:</label>
+            <textarea type="text" name="desc" row="8" cols="50" maxlength="150"></textarea>
+        </div>
+
+        <button type="submit">submit</button>
+    </form>
+
+</body>
+
+</html>

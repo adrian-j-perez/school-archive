@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Search</title>
+</head>
+
+<body>
+    <button onclick="window.location.href='./index.html'">Home Page</button>
+    <h1>Search</h1>
+
+    <form action="search-results.php" method="post">
+
+        <div>
+            <label for="searchtype">Select Search:</label>
+            <select id="searchtype" name="searchtype">
+                <option value="users">users</option>
+                <option value="devices">devices</option>
+                <option value="uses">user-using-device</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="searchterm">find by name:</label>
+            <input class="from-contral" type="text" name="searchterm" />
+        </div>
+
+        <button type="submit">Search</button>
+
+    </form>
+
+</body>
+
+</html>

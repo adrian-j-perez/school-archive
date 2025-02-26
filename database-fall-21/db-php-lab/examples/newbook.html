@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Book-O-Rama Catalog New Book Entry</title>
+</head>
+
+<body>
+    <main role="main" class="container-fluid">
+        <h1> Book-O-Rama New Book Entry </h1>
+
+        <form action="insert_book.php" method="post">
+            <p>ISBN <input type="text" name="isbn" maxlength="13" size="13" /></p>
+            <p>Author <input type="text" name="author" maxlength="30" size="30" /></p>
+            <p>Title <input type="text" name="title" maxlength="60" size="30" /></p>
+            <p>Price $<input type="text" name="price" maxlength="7" size="7" /></p>
+
+            <input type="submit" name="submit" value="Add Book" />
+        </form>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>

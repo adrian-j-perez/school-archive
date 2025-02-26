@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Book-o-Rama Search Form</title>
+</head>
+
+<body>
+    <main role="main" class="contanier-fluid">
+        <h1>Book-o-Rama Catalog Search</h1>
+
+        <form action="results.php" method="post">
+
+            <div class="form-group">
+
+                <label for="searchtype">Select Search Term:</label>
+                <select class="from-contral" id="searchtype" name="searchtype">
+                    <option value="author">author</option>
+                    <option value="title">title</option>
+                    <option value="isbn">ISBN </option>
+
+                </select>
+
+            </div>
+
+            <!-- user input -->
+            <div class="form-group">
+                <label for="searchterm">Enter Search Term:</label>
+                <input class="from-contral" type="text" name="searchterm" />
+            </div>
+
+            <button type="submit">Search</button>
+
+        </form>
+    </main>    
+
+
+</body>
+
+</html>
