@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">WebsiteRating</string>
+    <string name="website_rating">Website Rating</string>
+    <string name="website_name">Website Name</string>
+    <string name="reason_for_use">Reason For Use</string>
+
+    <!--this is for the radio-->
+    <string name="would_you">Would you...</string>
+    <string name="share">Share</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="not_visit_again">Not visit again</string>
+
+    <string name="i_agree_to_the_privacy_policy">I agree to the privacy policy</string>
+    <string name="check_the_box">Please check the box</string>
+    <string name="submit">submit</string>
+
+
+</resources>

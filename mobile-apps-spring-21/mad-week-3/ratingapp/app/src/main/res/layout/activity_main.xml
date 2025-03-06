@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/website_rating"
+            android:gravity="center_horizontal"
+            android:textSize="30sp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="10dp"
+            android:textColor="@color/black"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+            />
+
+        <EditText
+            android:id="@+id/websiteNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/website_name"
+            android:layout_margin="5dp"
+            />
+
+        <EditText
+            android:id="@+id/reasonNameEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:hint="@string/reason_for_use"
+            android:layout_margin="5dp"
+            />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:text="@string/would_you"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            />
+
+        <RadioGroup
+            android:id="@+id/wouldYouRadioGroup"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_horizontal"
+            android:padding="10dp"
+            >
+            <RadioButton
+                android:id="@+id/shareRadioButton"
+                android:text="@string/share"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                />
+            <RadioButton
+                android:id="@+id/bookmarkRadioButton"
+                android:text="@string/bookmark"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:padding="10dp"
+                />
+            <RadioButton
+                android:id="@+id/notVisitRadioButton"
+                android:text="@string/not_visit_again"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                />
+        </RadioGroup>
+
+        <!--make if statement that is not check it will make a toast
+          to the use to check it, when they try to submit-->
+        <CheckBox
+            android:id="@+id/agreeCheckBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="false"
+            android:text="@string/i_agree_to_the_privacy_policy" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="20dp"
+            android:text="@string/submit"
+            android:textColor="@color/black"
+            android:onClick="submitClickButton"
+            />
+
+    </LinearLayout>
+
+</ScrollView>
