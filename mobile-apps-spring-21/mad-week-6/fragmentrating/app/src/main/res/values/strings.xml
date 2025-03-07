@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">List of Ratings</string>
+
+
+    <string-array name="db_rating_name">
+        <item>Pizza Hut</item>
+        <item>Dominos Pizza</item>
+        <item>Dark Mode</item>
+        <item>Light Mode</item>
+        <item>Android OS</item>
+        <item>Apple IOS</item>
+    </string-array>
+
+    <!--later see if i can a half point scale-->
+    <string-array name="db_rating_number">
+        <item>5</item>
+        <item>4</item>
+        <item>4</item>
+        <item>3</item>
+        <item>4</item>
+        <item>3</item>
+    </string-array>
+
+    <!--add some reason for the rating i gave -->
+    <string-array name="db_rating_reason">
+        <item>No one can out pizza the hut!!</item>
+        <item>There bread sticks better than pizza hut and the sauce that comes with it are great too.</item>
+        <item>when using dark mode it can help reduce eye strain when you have to complete
+            a last minute programming project. Also it just looks better. </item>
+        <item>Everything is just to white, but at least it can help you focus on the code
+            that you are write. </item>
+        <item>There is more freedom to do things than compared to apples IOS.</item>
+        <item> They box you in and limit you, but its a good looking box to be in.</item>
+    </string-array>
+
+    <string name="reason">Reason:</string>
+
+
+</resources>
