@@ -1,0 +1,98 @@
+{
+  "project_info": {
+    "project_number": "1048368937150",
+    "firebase_url": "https://demo2021-36b9a-default-rtdb.firebaseio.com",
+    "project_id": "demo2021-36b9a",
+    "storage_bucket": "demo2021-36b9a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048368937150:android:db1bd36a8c44dfa2f406ef",
+        "android_client_info": {
+          "package_name": "edu.lewis.cs.adrian.firebasewebsiterating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048368937150-g3ti4c8t4d2r8kdgvf8eq6glen9mjokt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wtiJtxGxzAVJerr0Kqtyqf32alyTt24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048368937150-g3ti4c8t4d2r8kdgvf8eq6glen9mjokt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048368937150:android:92d5b4a34b70c925f406ef",
+        "android_client_info": {
+          "package_name": "edu.lewisu.cs.example.courserating"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048368937150-g3ti4c8t4d2r8kdgvf8eq6glen9mjokt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wtiJtxGxzAVJerr0Kqtyqf32alyTt24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048368937150-g3ti4c8t4d2r8kdgvf8eq6glen9mjokt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1048368937150:android:92eb6f871f253336f406ef",
+        "android_client_info": {
+          "package_name": "edu.lewisu.cs.example.todofirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1048368937150-g3ti4c8t4d2r8kdgvf8eq6glen9mjokt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA-wtiJtxGxzAVJerr0Kqtyqf32alyTt24"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1048368937150-g3ti4c8t4d2r8kdgvf8eq6glen9mjokt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

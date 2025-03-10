@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">FirebaseWebsiteRating</string>
+
+    <string name="i_agree_checkbox">agree to the privacy policy</string>
+    <string name="not_visit_again">Not visit again</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="share">Share</string>
+    <string name="would_you">Would you ...</string>
+    <string name="reason">Reason</string>
+    <string name="enter_website_name">Enter website name</string>
+
+    <string name="add">add</string>
+    <string name="website_rating">Website Rating</string>
+    <string name="website_ratings">Website Ratings</string>
+
+    <!--this is to display the number of stars-->
+    <plurals name="star_rating">
+        <item quantity="zero">Rating: %d stars</item>
+        <item quantity="one">Rating: %d star</item>
+        <item quantity="other">Rating: %d stars</item>
+    </plurals>
+
+
+</resources>
