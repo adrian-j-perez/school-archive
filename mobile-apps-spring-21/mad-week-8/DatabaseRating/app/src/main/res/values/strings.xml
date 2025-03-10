@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">DatabaseRating</string>
+    <string name="submit_update">submit / update</string>
+    <string name="i_agree_checkbox">I agree to the privacy policy</string>
+    <string name="not_visit_again">Not visit again</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="share">Share</string>
+    <string name="would_you">Would you ...</string>
+    <string name="reason">Reason</string>
+    <string name="enter_website_name">Enter website name</string>
+
+    <string name="title_activity_launch">LaunchActivity</string>
+
+
+    <string name="website_rating_list">Website Rating List</string>
+
+    <string name="website_rating">Website Rating</string>
+    <string name="website_ratings">Website Ratings</string>
+    <string name="settings">Settings</string>
+    <string name="delete">Delete</string>
+    <string name="rating_added">Rating Added</string>
+    <string name="update">Update</string>
+    <string name="add">add</string>
+
+
+    <!-- this plurals is to help 'convert' the number into a format text -->
+    <plurals name="star_rating">
+        <item quantity="zero">Rating: %d stars</item>
+        <item quantity="one">Rating: %d star</item>
+        <item quantity="other">Rating: %d stars</item>
+    </plurals>
+
+    <!-- Titles for preferences -->
+    <string name="default_choice">Select the default rating</string>
+    <string name="theme_choice">Dark Theme</string>
+
+    <!-- Key name for rating preference in SharedPreferences -->
+    <string name="pref_rating_key" translatable="false">rating</string>
+    <string name="pref_theme_key" translatable="false">dark</string>
+
+
+
+
+</resources>
