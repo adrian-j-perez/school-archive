@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WeatherAPI</string>
+    <string name="data_from_accuweather">Data from AccuWeather</string>
+    <string name="enter">enter</string>
+</resources>
