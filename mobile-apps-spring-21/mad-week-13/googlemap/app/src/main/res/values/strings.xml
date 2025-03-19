@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ClassExampleMaps</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="satellite">satellite</string>
+    <string name="hybrid">hybrid</string>
+    <string name="normal">Normal</string>
+</resources>
