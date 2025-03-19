@@ -27,7 +27,7 @@
   - null
 
 ### Examples
-- [Book Example](http://cs.lewisu.edu/~howardcy/materials/php/books1.php)
+- [Book Example](mt-lewis link)
 - [Open Trivia Database](https://opentdb.com/api.php?amount=1&category=18&type=boolean)
 - [NYT Bestsellers](http://api.nytimes.com/svc/books/v3/lists.json?api-key=42ff06dcd8c04a4cae037a10a43ffd4c&list=hardcover-fiction)
 - For help parsing JSON data, install the [JSON Viewer](https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh) extension for Chrome
