@@ -22,5 +22,5 @@
     -->
 
     <!--                                                                                the api key-->
-    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBEdggtfxYMm-mcE6UicCi0qc6TF7XzU6c</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">google_maps_key_old_account</string>
 </resources>
