@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Simple Game</string>
+    <string name="score_format">Score: %1$d</string>
+    <string name="time_format">Total Time: %1$.1f</string>
+    <string name="game_over">Game Over</string>
+    <string name="score">Score:</string>
+    <string name="start">Start New Game</string>
+</resources>
